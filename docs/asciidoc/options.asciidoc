@@ -105,14 +105,14 @@ IMPORTANT: Read more about Curator and Index Lifecycle Management
 action: delete_indices
 description: "Delete the specified indices"
 options:
-  allow_ilm_indices: true
+  allow_ilm_indices: True
 filters:
 - filtertype: ...
 -------------
 
-The value of this setting must be either `true` or `false`.
+The value of this setting must be either `True` or `False`.
 
-The default value for this setting is `false`.
+The default value for this setting is `False`.
 
 [[option_continue]]
 == continue_if_exception
